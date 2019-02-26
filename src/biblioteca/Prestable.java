@@ -2,10 +2,13 @@ package biblioteca;
 
 public interface Prestable {
 	
-	public boolean prestar();
+	// Acción de pedir prestado un libro
+	public void prestar();
 	
-	public boolean devolver();
+	// Acción de retornar un libro a la biblioteca
+	public void devolver();
 	
-	// Metodo prestado?
+	// Saber si un libro está prestado
+	public boolean prestado();
 	
 }
